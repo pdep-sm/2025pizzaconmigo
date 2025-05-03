@@ -8,17 +8,6 @@ data Pizza = Pizza {
   calorias :: Number
 } deriving Show
 
-
-data P = P {
-  a :: String,
-  b :: B
-} deriving Show
-data B = B {
-  x :: Number,
-  y :: Number
-} deriving Show
-
-tt p = p{ b = (b p){x = 2} }
 -- 1.b
 grandeDeMuzza = Pizza ["salsa", "mozzarella", "orégano"] 8 350
 grandeDeJamonPalmitos = Pizza ["salsa", "mozzarella", "palmito", "jamon"] 8 500
